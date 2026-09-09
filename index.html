@@ -414,19 +414,21 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible{ outline:2px sol
 
 <header class="site-nav" id="siteNav">
   <div class="bar">
-    <a href="#top" class="brand-mark" aria-label="Yash Todkari, home">
-      <img src="assets/favicon.svg" alt="Yash Todkari Headshot Logo" class="portfolio-logo" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;">
+    <a href="/#top" class="brand-mark" aria-label="Yash Todkari, home">
+      <!-- Added a leading / to the src path so it never breaks on sub-pages -->
+      <img src="/assets/favicon.svg" alt="Yash Todkari Headshot Logo" class="portfolio-logo" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;">
       <span>Yash Todkari</span>
     </a>
     <nav class="links" aria-label="Primary">
-      <a href="#about">About</a>
-      <a href="#capabilities">Capabilities</a>
-      <a href="#research">Research</a>
-      <a href="#featured-work">Featured Work</a>
-      <a href="#technical-curiosity">Technical Curiosity</a>
-      <a href="#resume">Resume</a>
-      <a href="#future-work">Future Work</a>
-      <a href="#contact">Contact</a>
+      <!-- Added a leading / to the anchor links so they navigate correctly from sub-pages -->
+      <a href="/#about">About</a>
+      <a href="/#capabilities">Capabilities</a>
+      <a href="/#research">Research</a>
+      <a href="/#featured-work">Featured Work</a>
+      <a href="/#technical-curiosity">Technical Curiosity</a>
+      <a href="/#resume">Resume</a>
+      <a href="/#future-work">Future Work</a>
+      <a href="/#contact">Contact</a>
     </nav>
     <div class="nav-actions">
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
